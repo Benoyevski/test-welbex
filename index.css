@@ -1,0 +1,291 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #e4e5ea;
+    background: #0e1014;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+._container {
+    max-width: 1144px;
+    box-sizing: content-box;
+    margin: 0px auto;
+}
+
+._ibg {
+    position: relative;
+}
+
+._ibg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+/* //////// light-balls///////////////     */
+
+.purple-light {
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 602px;
+    top: -154px;
+
+    background: #833ab4;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+
+.purple-ball {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 868px;
+    top: -2px;
+    border-radius: 50%;
+
+    background: radial-gradient(
+        64% 64% at 27.25% 26.5%,
+        rgba(236, 208, 255, 0.64) 0%,
+        rgba(161, 93, 207, 0.24) 59.67%,
+        rgba(118, 49, 164, 0.208) 78.59%,
+        rgba(86, 24, 128, 0.232) 100%
+    );
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+}
+
+.red-ball {
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 519px;
+    top: 83px;
+    border-radius: 50%;
+    background: radial-gradient(
+        64% 64% at 27.25% 26.5%,
+        rgba(255, 208, 208, 0.536) 0%,
+        rgba(212, 93, 93, 0.264) 59.67%,
+        rgba(167, 49, 49, 0.248) 78.59%,
+        rgba(130, 25, 25, 0.248) 100%
+    );
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    backdrop-filter: blur(2px);
+}
+/*////////         Header              /////////////*/
+
+.wrapper {
+    width: 1440px;
+    height: 980px;
+}
+
+.header {
+    width: 1140px;
+    height: 73px;
+    margin-top: 46px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3px;
+}
+
+.logo-welbex {
+    margin-top: 11px;
+    width: 140px;
+    height: 24px;
+}
+
+.logo-info {
+    margin-top: 10px;
+    width: 165px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 1px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 27px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 503px;
+    height: 19px;
+}
+
+.phone {
+    width: 143px;
+    height: 19px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 137px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 47px;
+}
+.socials span {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.socials span:not(:last-child) {
+    margin-right: 30px;
+}
+
+.viber {
+    height: 19px;
+}
+
+/*/ ///////           Main         /////////////*/
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1144px;
+    height: 387px;
+    border: 1px solid #fff;
+    margin-top: 90px;
+}
+
+.main-content--left {
+    width: 362px;
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content--right {
+    width: 330px;
+    height: 372px;
+}
+
+.main-content--title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.gradient1 {
+    font-weight: 900;
+    background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.main-content--text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 30px;
+}
+
+.main-content--right {
+    width: 330px;
+    height: 372px;
+    text-align: right;
+}
+
+.main-content--advantages {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.gradient2 {
+    font-weight: 700;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.main-content--advantages-list {
+    width: 330px;
+    height: 166px;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.advantage-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
