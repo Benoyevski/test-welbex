@@ -26,6 +26,13 @@
         color: #e4e5ea;
         align-items: center;
     }
+
+    .header-mobile {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 0 16px;
+    }
 }
 
 .logo-welbex {
@@ -76,6 +83,7 @@
     .navbar li:nth-child(5) {
         display: none;
     }
+
 }
 
 .phone {

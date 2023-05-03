@@ -11,12 +11,20 @@
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        width: 320px;
+        width: 100%;
         height: 445px;
         margin-top: 40px;
-        background-image: url(/images/noise.png);
-        
     }
+
+    .main-mobile {
+        position: relative;
+        top: 55px;
+        left: 0;
+        /* padding: 0 14px; */
+        height: 445px;
+    }
+
+
 }
 
 .main-content--left {
