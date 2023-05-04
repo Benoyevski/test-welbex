@@ -15,14 +15,12 @@
         height: 559px;
         margin-top: 0px;
         margin-bottom: 60px;
-        padding-top: 4px;
-        padding-bottom: 0px;
         display: flex;
         flex-direction: column;
         background: #000000;
     }
 
-    .foot-mob {
+    .foot-mobile {
         position: absolute;
         top: 500px;
         left: 0px;
