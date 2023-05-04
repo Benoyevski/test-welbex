@@ -28,11 +28,12 @@
     }
 
     .header-mobile {
-        position: relative;
+        position: fixed;
         top: 0px;
         left: 0px;
         background: #0e1014;
-
+        padding: 0 16px;
+        z-index: 100;
     }
 }
 
@@ -84,7 +85,6 @@
     .navbar li:nth-child(5) {
         display: none;
     }
-
 }
 
 .phone {

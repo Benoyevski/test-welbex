@@ -29,6 +29,7 @@
 
 @media (max-width: 320px) {
     .container {
-        max-width: 289px;
+        width: 289px;
+        height: 1115px;
     }
 }
