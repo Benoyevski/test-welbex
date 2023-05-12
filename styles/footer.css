@@ -1,4 +1,3 @@
-
 .footer {
     margin-top: 69px;
     width: 1141px;
@@ -17,7 +16,7 @@
         margin-bottom: 60px;
         display: flex;
         flex-direction: column;
-        background: #0E1014;
+        background: #0e1014;
     }
 
     .foot-mobile {
@@ -27,7 +26,6 @@
         height: 615px;
         padding: 41px 16px 60px 15px;
     }
-    
 }
 
 .footer-sections {
@@ -167,11 +165,23 @@
     }
 }
 
+
+.footer-socials {
+    display: flex;
+    text-align: right;
+    justify-content: end;
+
+}
+
 .footer-socials span {
     width: 20px;
     height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     object-fit: cover;
 }
+
 
 .footer-socials span:not(:last-child) {
     margin-right: 10px;
